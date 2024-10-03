@@ -1,2 +1,2 @@
 # Chainlink Workshops
-1. BitSampa -> 
+1. BitSampa -> ![BitSampa CCIP Example](bitsampa)
