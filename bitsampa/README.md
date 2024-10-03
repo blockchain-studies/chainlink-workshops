@@ -4,7 +4,6 @@ Wallet Account on Avalanche Fuji: `0x732903f195c27C45Aa86a2045aa160442608F21A`
 
 Wallet Account on Sepolia: `0xE5435Db2b26a59083788cA861e7f86CF7338CF64`
 
-# Setup
 Original tutorial: https://cll-devrel.gitbook.io/ccip-bootcamp/day-3/exercise-4-sending-usdc-cross-chain
 
 - LINK Token Contracts: https://docs.chain.link/resources/link-token-contracts
@@ -13,12 +12,16 @@ Original tutorial: https://cll-devrel.gitbook.io/ccip-bootcamp/day-3/exercise-4-
 - Necessary CCIP Token: https://docs.chain.link/ccip/test-tokens#mint-test-tokens
 - Contract Funding: https://docs.chain.link/resources/fund-your-contract
 
-- Avalanche Fuji Router Address: `0xF694E193200268f9a4868e4Aa017A0118C9a8177`
-- LINK on Avalanche Fuji Address: `0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846`
+# Setup
+### Deploy Contract On Avalanche Fuji
+
+- Avalanche Fuji Router Address (`ccipRouter`): `0xF694E193200268f9a4868e4Aa017A0118C9a8177`
+- LINK on Avalanche Fuji Address (`linkToken`): `0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846`
+- USDC Token on Avalanche Fuji Address (`usdcToken`): `0x5425890298aed601595a70AB815c96711a31Bc65` 
 - Destination Chain Selector: `16015286601757825753` (Enable the contract to transfer tokens to Ethereum Sepolia)
 - Sepolia Receiver Account: `0xE5435Db2b26a59083788cA861e7f86CF7338CF64`
 
-- TokenTransferor Contract Address: `0xc90459f845CBf208D7B92c872371629f003182CA` (It was deployed on Avalanche Fuji)
+- TransferUSDC Contract Address: `0xFA4cbCD6Fe6c79E0Fb0442C2729c7E17Db60B369` (It was deployed on Avalanche Fuji)
 
 ### Transfer tokens and pay in LINK
 - Funding Contract with LINK: https://testnet.snowtrace.io/tx/0x9c50b3ea2080bbf7bd641e3a29e28c75b0a2e2585eb9852ca380ee5610a0c25f
