@@ -53,7 +53,11 @@ Original tutorial: https://cll-devrel.gitbook.io/ccip-bootcamp/day-3/exercise-4-
 - - As the `_amount` parameter: `5000000` (6 digits, 5 USDC)
 - - As the `_gasLimit` parameter: `0` (`0` is set as the `_gasLimit` parameter because we are sending tokens to an EOA so there is no cost for executing the ccipReceive function on the destination side)
 
+- Import the USDC token address on Sepolia network into the Wallet (import token option): `0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238`
+
 - Transaction:
-- - CCIP Explorer: 
-- - Snowtrace Explorer: 
-- - Sepolia Explorer: 
+- - CCIP Explorer: https://ccip.chain.link/msg/0x73a031ec1db951ab07491de5cae155e9fcc7bfba0c8d65f3eec5fb961514fdc4 
+- - Snowtrace Explorer: https://testnet.snowtrace.io/tx/0x75caea3b9adcb2e25eccc578f774ba38badbb63f1d18ef41e25986495dd1b224
+- - Sepolia Explorer: https://sepolia.etherscan.io/tx/0xdbeafdf2b7cc476f82e52a4533d5b293e3e48805d3845ccc23a0786f0995feba 
+
+
